@@ -1,0 +1,145 @@
+month,month_num,year,period,type,category,budget,actual,variance,variance_pct
+Jan,1,2024,Jan 2024,Revenue,Retail Banking,4200,4284.0,84.0,2.0
+Jan,1,2024,Jan 2024,Revenue,Wealth Management,2800,2912.0,112.0,4.0
+Jan,1,2024,Jan 2024,Revenue,Business Lending,1900,1786.0,-114.0,-6.0
+Jan,1,2024,Jan 2024,Revenue,Insurance,1200,1212.0,12.0,1.0
+Jan,1,2024,Jan 2024,Revenue,Digital Payments,850,918.0,68.0,8.0
+Jan,1,2024,Jan 2024,Revenue,Foreign Exchange,420,407.0,-13.0,-3.1
+Feb,2,2024,Feb 2024,Revenue,Retail Banking,4100,4141.0,41.0,1.0
+Feb,2,2024,Feb 2024,Revenue,Wealth Management,2750,2888.0,138.0,5.02
+Feb,2,2024,Feb 2024,Revenue,Business Lending,1850,1702.0,-148.0,-8.0
+Feb,2,2024,Feb 2024,Revenue,Insurance,1180,1180.0,0.0,0.0
+Feb,2,2024,Feb 2024,Revenue,Digital Payments,880,968.0,88.0,10.0
+Feb,2,2024,Feb 2024,Revenue,Foreign Exchange,400,384.0,-16.0,-4.0
+Mar,3,2024,Mar 2024,Revenue,Retail Banking,4350,4306.0,-44.0,-1.01
+Mar,3,2024,Mar 2024,Revenue,Wealth Management,2900,3074.0,174.0,6.0
+Mar,3,2024,Mar 2024,Revenue,Business Lending,2000,1820.0,-180.0,-9.0
+Mar,3,2024,Mar 2024,Revenue,Insurance,1250,1238.0,-12.0,-0.96
+Mar,3,2024,Mar 2024,Revenue,Digital Payments,920,1030.0,110.0,11.96
+Mar,3,2024,Mar 2024,Revenue,Foreign Exchange,440,431.0,-9.0,-2.05
+Apr,4,2024,Apr 2024,Revenue,Retail Banking,4500,4635.0,135.0,3.0
+Apr,4,2024,Apr 2024,Revenue,Wealth Management,3100,3348.0,248.0,8.0
+Apr,4,2024,Apr 2024,Revenue,Business Lending,2100,1890.0,-210.0,-10.0
+Apr,4,2024,Apr 2024,Revenue,Insurance,1300,1313.0,13.0,1.0
+Apr,4,2024,Apr 2024,Revenue,Digital Payments,980,1127.0,147.0,15.0
+Apr,4,2024,Apr 2024,Revenue,Foreign Exchange,460,437.0,-23.0,-5.0
+May,5,2024,May 2024,Revenue,Retail Banking,4600,4784.0,184.0,4.0
+May,5,2024,May 2024,Revenue,Wealth Management,3200,3424.0,224.0,7.0
+May,5,2024,May 2024,Revenue,Business Lending,2200,1958.0,-242.0,-11.0
+May,5,2024,May 2024,Revenue,Insurance,1350,1377.0,27.0,2.0
+May,5,2024,May 2024,Revenue,Digital Payments,1050,1197.0,147.0,14.0
+May,5,2024,May 2024,Revenue,Foreign Exchange,480,451.0,-29.0,-6.04
+Jun,6,2024,Jun 2024,Revenue,Retail Banking,4400,4488.0,88.0,2.0
+Jun,6,2024,Jun 2024,Revenue,Wealth Management,3100,3379.0,279.0,9.0
+Jun,6,2024,Jun 2024,Revenue,Business Lending,2100,1848.0,-252.0,-12.0
+Jun,6,2024,Jun 2024,Revenue,Insurance,1300,1300.0,0.0,0.0
+Jun,6,2024,Jun 2024,Revenue,Digital Payments,1100,1276.0,176.0,16.0
+Jun,6,2024,Jun 2024,Revenue,Foreign Exchange,460,442.0,-18.0,-3.91
+Jul,7,2024,Jul 2024,Revenue,Retail Banking,4200,4074.0,-126.0,-3.0
+Jul,7,2024,Jul 2024,Revenue,Wealth Management,2900,3132.0,232.0,8.0
+Jul,7,2024,Jul 2024,Revenue,Business Lending,1950,1696.0,-254.0,-13.03
+Jul,7,2024,Jul 2024,Revenue,Insurance,1200,1188.0,-12.0,-1.0
+Jul,7,2024,Jul 2024,Revenue,Digital Payments,1150,1357.0,207.0,18.0
+Jul,7,2024,Jul 2024,Revenue,Foreign Exchange,420,407.0,-13.0,-3.1
+Aug,8,2024,Aug 2024,Revenue,Retail Banking,4100,3895.0,-205.0,-5.0
+Aug,8,2024,Aug 2024,Revenue,Wealth Management,2800,2996.0,196.0,7.0
+Aug,8,2024,Aug 2024,Revenue,Business Lending,1900,1634.0,-266.0,-14.0
+Aug,8,2024,Aug 2024,Revenue,Insurance,1180,1180.0,0.0,0.0
+Aug,8,2024,Aug 2024,Revenue,Digital Payments,1200,1440.0,240.0,20.0
+Aug,8,2024,Aug 2024,Revenue,Foreign Exchange,410,390.0,-20.0,-4.88
+Sep,9,2024,Sep 2024,Revenue,Retail Banking,4300,4128.0,-172.0,-4.0
+Sep,9,2024,Sep 2024,Revenue,Wealth Management,3000,3270.0,270.0,9.0
+Sep,9,2024,Sep 2024,Revenue,Business Lending,2000,1740.0,-260.0,-13.0
+Sep,9,2024,Sep 2024,Revenue,Insurance,1250,1262.0,12.0,0.96
+Sep,9,2024,Sep 2024,Revenue,Digital Payments,1250,1488.0,238.0,19.04
+Sep,9,2024,Sep 2024,Revenue,Foreign Exchange,440,414.0,-26.0,-5.91
+Oct,10,2024,Oct 2024,Revenue,Retail Banking,4500,4365.0,-135.0,-3.0
+Oct,10,2024,Oct 2024,Revenue,Wealth Management,3200,3520.0,320.0,10.0
+Oct,10,2024,Oct 2024,Revenue,Business Lending,2100,1848.0,-252.0,-12.0
+Oct,10,2024,Oct 2024,Revenue,Insurance,1300,1326.0,26.0,2.0
+Oct,10,2024,Oct 2024,Revenue,Digital Payments,1300,1573.0,273.0,21.0
+Oct,10,2024,Oct 2024,Revenue,Foreign Exchange,460,442.0,-18.0,-3.91
+Nov,11,2024,Nov 2024,Revenue,Retail Banking,4600,4508.0,-92.0,-2.0
+Nov,11,2024,Nov 2024,Revenue,Wealth Management,3400,3774.0,374.0,11.0
+Nov,11,2024,Nov 2024,Revenue,Business Lending,2200,1958.0,-242.0,-11.0
+Nov,11,2024,Nov 2024,Revenue,Insurance,1350,1364.0,14.0,1.04
+Nov,11,2024,Nov 2024,Revenue,Digital Payments,1380,1684.0,304.0,22.03
+Nov,11,2024,Nov 2024,Revenue,Foreign Exchange,480,466.0,-14.0,-2.92
+Dec,12,2024,Dec 2024,Revenue,Retail Banking,5200,5148.0,-52.0,-1.0
+Dec,12,2024,Dec 2024,Revenue,Wealth Management,3800,4256.0,456.0,12.0
+Dec,12,2024,Dec 2024,Revenue,Business Lending,2400,2160.0,-240.0,-10.0
+Dec,12,2024,Dec 2024,Revenue,Insurance,1500,1500.0,0.0,0.0
+Dec,12,2024,Dec 2024,Revenue,Digital Payments,1500,1875.0,375.0,25.0
+Dec,12,2024,Dec 2024,Revenue,Foreign Exchange,520,494.0,-26.0,-5.0
+Jan,1,2024,Jan 2024,Cost,Personnel,3800,3800.0,0.0,0.0
+Jan,1,2024,Jan 2024,Cost,Technology,980,960.0,-20.0,-2.04
+Jan,1,2024,Jan 2024,Cost,Marketing,320,304.0,-16.0,-5.0
+Jan,1,2024,Jan 2024,Cost,Operations,560,566.0,6.0,1.07
+Jan,1,2024,Jan 2024,Cost,Compliance,280,280.0,0.0,0.0
+Jan,1,2024,Jan 2024,Cost,Facilities,180,180.0,0.0,0.0
+Feb,2,2024,Feb 2024,Cost,Personnel,3800,3838.0,38.0,1.0
+Feb,2,2024,Feb 2024,Cost,Technology,980,980.0,0.0,0.0
+Feb,2,2024,Feb 2024,Cost,Marketing,280,258.0,-22.0,-7.86
+Feb,2,2024,Feb 2024,Cost,Operations,540,535.0,-5.0,-0.93
+Feb,2,2024,Feb 2024,Cost,Compliance,280,280.0,0.0,0.0
+Feb,2,2024,Feb 2024,Cost,Facilities,180,180.0,0.0,0.0
+Mar,3,2024,Mar 2024,Cost,Personnel,3900,3900.0,0.0,0.0
+Mar,3,2024,Mar 2024,Cost,Technology,1000,1020.0,20.0,2.0
+Mar,3,2024,Mar 2024,Cost,Marketing,380,388.0,8.0,2.11
+Mar,3,2024,Mar 2024,Cost,Operations,580,580.0,0.0,0.0
+Mar,3,2024,Mar 2024,Cost,Compliance,290,296.0,6.0,2.07
+Mar,3,2024,Mar 2024,Cost,Facilities,185,185.0,0.0,0.0
+Apr,4,2024,Apr 2024,Cost,Personnel,3900,3978.0,78.0,2.0
+Apr,4,2024,Apr 2024,Cost,Technology,1000,1050.0,50.0,5.0
+Apr,4,2024,Apr 2024,Cost,Marketing,420,454.0,34.0,8.1
+Apr,4,2024,Apr 2024,Cost,Operations,590,602.0,12.0,2.03
+Apr,4,2024,Apr 2024,Cost,Compliance,290,296.0,6.0,2.07
+Apr,4,2024,Apr 2024,Cost,Facilities,185,185.0,0.0,0.0
+May,5,2024,May 2024,Cost,Personnel,3900,3939.0,39.0,1.0
+May,5,2024,May 2024,Cost,Technology,1050,1134.0,84.0,8.0
+May,5,2024,May 2024,Cost,Marketing,350,368.0,18.0,5.14
+May,5,2024,May 2024,Cost,Operations,600,618.0,18.0,3.0
+May,5,2024,May 2024,Cost,Compliance,300,309.0,9.0,3.0
+May,5,2024,May 2024,Cost,Facilities,185,185.0,0.0,0.0
+Jun,6,2024,Jun 2024,Cost,Personnel,3950,3950.0,0.0,0.0
+Jun,6,2024,Jun 2024,Cost,Technology,1050,1113.0,63.0,6.0
+Jun,6,2024,Jun 2024,Cost,Marketing,310,304.0,-6.0,-1.94
+Jun,6,2024,Jun 2024,Cost,Operations,580,586.0,6.0,1.03
+Jun,6,2024,Jun 2024,Cost,Compliance,300,312.0,12.0,4.0
+Jun,6,2024,Jun 2024,Cost,Facilities,185,185.0,0.0,0.0
+Jul,7,2024,Jul 2024,Cost,Personnel,3950,4068.0,118.0,2.99
+Jul,7,2024,Jul 2024,Cost,Technology,1100,1199.0,99.0,9.0
+Jul,7,2024,Jul 2024,Cost,Marketing,290,273.0,-17.0,-5.86
+Jul,7,2024,Jul 2024,Cost,Operations,550,544.0,-6.0,-1.09
+Jul,7,2024,Jul 2024,Cost,Compliance,310,326.0,16.0,5.16
+Jul,7,2024,Jul 2024,Cost,Facilities,190,192.0,2.0,1.05
+Aug,8,2024,Aug 2024,Cost,Personnel,3950,4108.0,158.0,4.0
+Aug,8,2024,Aug 2024,Cost,Technology,1100,1210.0,110.0,10.0
+Aug,8,2024,Aug 2024,Cost,Marketing,280,252.0,-28.0,-10.0
+Aug,8,2024,Aug 2024,Cost,Operations,540,529.0,-11.0,-2.04
+Aug,8,2024,Aug 2024,Cost,Compliance,310,326.0,16.0,5.16
+Aug,8,2024,Aug 2024,Cost,Facilities,190,192.0,2.0,1.05
+Sep,9,2024,Sep 2024,Cost,Personnel,4000,4080.0,80.0,2.0
+Sep,9,2024,Sep 2024,Cost,Technology,1100,1188.0,88.0,8.0
+Sep,9,2024,Sep 2024,Cost,Marketing,380,399.0,19.0,5.0
+Sep,9,2024,Sep 2024,Cost,Operations,570,576.0,6.0,1.05
+Sep,9,2024,Sep 2024,Cost,Compliance,320,339.0,19.0,5.94
+Sep,9,2024,Sep 2024,Cost,Facilities,190,192.0,2.0,1.05
+Oct,10,2024,Oct 2024,Cost,Personnel,4000,4120.0,120.0,3.0
+Oct,10,2024,Oct 2024,Cost,Technology,1150,1288.0,138.0,12.0
+Oct,10,2024,Oct 2024,Cost,Marketing,420,470.0,50.0,11.9
+Oct,10,2024,Oct 2024,Cost,Operations,590,602.0,12.0,2.03
+Oct,10,2024,Oct 2024,Cost,Compliance,320,339.0,19.0,5.94
+Oct,10,2024,Oct 2024,Cost,Facilities,190,192.0,2.0,1.05
+Nov,11,2024,Nov 2024,Cost,Personnel,4050,4212.0,162.0,4.0
+Nov,11,2024,Nov 2024,Cost,Technology,1150,1276.0,126.0,10.96
+Nov,11,2024,Nov 2024,Cost,Marketing,480,566.0,86.0,17.92
+Nov,11,2024,Nov 2024,Cost,Operations,600,618.0,18.0,3.0
+Nov,11,2024,Nov 2024,Cost,Compliance,330,353.0,23.0,6.97
+Nov,11,2024,Nov 2024,Cost,Facilities,190,192.0,2.0,1.05
+Dec,12,2024,Dec 2024,Cost,Personnel,4100,4305.0,205.0,5.0
+Dec,12,2024,Dec 2024,Cost,Technology,1200,1380.0,180.0,15.0
+Dec,12,2024,Dec 2024,Cost,Marketing,620,756.0,136.0,21.94
+Dec,12,2024,Dec 2024,Cost,Operations,640,666.0,26.0,4.06
+Dec,12,2024,Dec 2024,Cost,Compliance,340,367.0,27.0,7.94
+Dec,12,2024,Dec 2024,Cost,Facilities,195,197.0,2.0,1.03
