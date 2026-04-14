@@ -1,11 +1,14 @@
 # FP&A Budget vs Actual Variance Report — FY2024
-### CFO Management Pack for a Financial Services Business Unit — SQL · Python · Power BI
+**Author: Samip Thakuri** | Financial Analyst | Wichita, KS | [LinkedIn](https://linkedin.com/in/samipthakuri) · [Portfolio](https://samipdk.github.io)
+
+### CFO Management Pack for a US Financial Services Business Unit — SQL · Python · Power BI
 
 ---
 
 ## The Business Problem
 
-A Financial Services Business Unit CFO needs a full-year management pack that clearly answers:
+A US Financial Services Business Unit CFO needs a full-year management pack that clearly answers:
+
 1. Did we hit our revenue and EBITDA targets for FY2024?
 2. Which product lines and cost categories drove the variances?
 3. Where is the margin going and what needs management attention in FY2025?
@@ -30,31 +33,33 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 ## Key Findings
 
 **Revenue:**
-- Digital Payments: +19.4% above budget — strongest performer, growth accelerating
-- Wealth Management: +8.6% above budget — consistent outperformance all year
-- Business Lending: -9.2% below budget — significant miss requiring recovery plan
-- Retail Banking: -0.6% — broadly in line despite NIM pressure
+- Digital Payments: +19.4% above budget — strongest performer, growth accelerating through H2
+- Wealth Management: +8.6% above budget — consistent outperformance driven by FUM growth and advisory fees
+- Business Lending: -9.2% below budget — significant miss driven by tightened credit appetite in SME segment; recovery plan required
+- Retail Banking: -0.6% — broadly in line despite NIM pressure from deposit competition
 
 **Costs:**
-- Technology: +13.5% over budget — cloud infrastructure and unplanned licence costs
-- Marketing: +11.2% over budget — unbudgeted Digital Payments campaign (revenue-justified)
-- Compliance: +7.3% over budget — structural FDIC reporting requirement increases
+- Technology: +13.5% over budget — unbudgeted cloud infrastructure costs and vendor licence upgrades in H2
+- Marketing: +11.2% over budget — unbudgeted Digital Payments campaign spend; commercially justified given revenue outperformance
+- Compliance: +7.3% over budget — structural FDIC reporting requirement increases and three unbudgeted external reviews
 - Facilities: +0.9% — well controlled
 
 ---
 
 ## Report Contents
 
-### CFO Management Pack (`FPA_CFO_Management_Pack_FY2024.docx`)
-5-section Word document:
-1. Executive Summary — headline P&L, key message, management action items
-2. Revenue Performance — product line variance table, commentary on each line
-3. Cost Performance — category variance table, overrun analysis, commentary
-4. EBITDA & Margin — bridge analysis, margin compression drivers
-5. FY2025 Outlook — revenue outlook, cost risks, margin targets, actions required
+### CFO Management Pack (`FPA_CFO_Management_Pack_FY2024.pptx`)
+7-slide PowerPoint deck covering:
+1. Title Slide — headline KPIs at a glance
+2. Executive Summary — key messages and full P&L summary table
+3. Revenue Performance — product line variance chart and commentary
+4. Cost Performance — cost category variance chart and overrun analysis
+5. EBITDA & Margin — KPI cards, EBITDA bridge table, margin compression analysis
+6. FY2025 Outlook — revenue outlook by product + 5 management actions
+7. Closing Summary — key takeaways
 
 ### Python Analysis (`analysis.py`)
-4 professional charts:
+4 professional charts saved to `outputs/`:
 - `01_revenue_analysis.png` — budget vs actual by month + product line variance
 - `02_cost_variance.png` — cost category variance + monthly cost trend
 - `03_ebitda_margin.png` — monthly EBITDA + margin compression chart
@@ -80,8 +85,8 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 | month_num | Month number (1–12) |
 | type | Revenue or Cost |
 | category | Product line or cost category |
-| budget | Budgeted amount ($000s) |
-| actual | Actual amount ($000s) |
+| budget | Budgeted amount ($000s USD) |
+| actual | Actual amount ($000s USD) |
 | variance | Actual minus budget |
 | variance_pct | Variance as % of budget |
 
@@ -94,16 +99,16 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 | Category | Skills |
 |---|---|
 | SQL | CTEs, window functions (SUM OVER, RANK, AVG rolling), conditional aggregation |
-| Python | pandas, matplotlib — budget vs actual, margin trend, waterfall |
-| Financial Analysis | FP&A, variance analysis, EBITDA bridge, margin analysis |
-| Business Writing | CFO-grade management commentary, product-level narrative |
-| Domain Knowledge | Financial services P&L, product profitability, cost management |
+| Python | pandas, matplotlib — budget vs actual, margin trend, variance charts |
+| Financial Analysis | FP&A, variance analysis, EBITDA bridge, margin analysis, management commentary |
+| Business Writing | CFO-grade executive summary, product-level narrative, forward outlook |
+| Domain Knowledge | US financial services P&L, product profitability, cost management, FDIC compliance |
 
 ---
 
-*All data is synthetic and generated for portfolio demonstration purposes.*
+*All data is synthetic and generated for portfolio demonstration purposes. Scenario modeled on a US financial services business unit. All figures in USD. Regulatory references reflect US standards (FDIC, SOX).*
 
 *Part of a broader analytics portfolio — see also:*
-- *[Brokerage Client Revenue & Churn Analysis](https://github.com/Suyashthakuri/brokerage-client-analytics)* — Client analytics
-- *[NYSE Fund Performance Report](https://github.com/Suyashthakuri/NYSE-fund-performance-q3-2024)* — Investment analytics
-- *[NYSE General Insurer KPI Dashboard](https://github.com/Suyashthakuri/NYSE-insurer-kpi-dashboard-)* — Power BI, DAX
+- *[Life Insurance KPI Dashboard](https://github.com/samipdk/AnalyticsDashboard)* — Power BI, DAX, actuarial KPIs
+- *[Workforce & Economic Analytics Dashboard](https://github.com/samipdk/BLS_Dashboard)* — BLS labor market analysis, Power BI
+- *[IPEDS Enrollment Analytics](https://github.com/samipdk/ipeds-enrollment-analytics)* — Higher education data, SQL, Power BI
