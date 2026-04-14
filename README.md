@@ -18,9 +18,9 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 
 | Metric | Budget | Actual | Variance |
 |---|---|---|---|
-| **Revenue** | A$149,010k | A$151,307k | **+A$2,297k (+1.5%)** ✅ |
-| **Total Costs** | A$77,545k | A$79,990k | **+A$2,445k (+3.2%)** ❌ |
-| **EBITDA** | A$71,465k | A$71,317k | **-A$148k (-0.2%)** 🟡 |
+| **Revenue** | $149,010k | $151,307k | **+$2,297k (+1.5%)** ✅ |
+| **Total Costs** | $77,545k | $79,990k | **+$2,445k (+3.2%)** ❌ |
+| **EBITDA** | $71,465k | $71,317k | **-$148k (-0.2%)** 🟡 |
 | **EBITDA Margin** | 48.0% | 47.1% | **-0.9pp compression** ❌ |
 
 **The story:** Revenue beat by +1.5% but costs grew faster (+3.2%), squeezing EBITDA margin by 0.9pp. The margin compression was driven by Technology (+13.5% over budget) and Marketing (+11.2% over budget). Without these two overruns, margin would have been approximately 47.9% — broadly on budget.
@@ -38,7 +38,7 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 **Costs:**
 - Technology: +13.5% over budget — cloud infrastructure and unplanned licence costs
 - Marketing: +11.2% over budget — unbudgeted Digital Payments campaign (revenue-justified)
-- Compliance: +7.3% over budget — structural APRA reporting requirement increases
+- Compliance: +7.3% over budget — structural FDIC reporting requirement increases
 - Facilities: +0.9% — well controlled
 
 ---
@@ -80,8 +80,8 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 | month_num | Month number (1–12) |
 | type | Revenue or Cost |
 | category | Product line or cost category |
-| budget | Budgeted amount (A$000s) |
-| actual | Actual amount (A$000s) |
+| budget | Budgeted amount ($000s) |
+| actual | Actual amount ($000s) |
 | variance | Actual minus budget |
 | variance_pct | Variance as % of budget |
 
@@ -105,5 +105,5 @@ This project delivers a complete CFO-grade management pack — from raw budget/a
 
 *Part of a broader analytics portfolio — see also:*
 - *[Brokerage Client Revenue & Churn Analysis](https://github.com/Suyashthakuri/brokerage-client-analytics)* — Client analytics
-- *[ASX Fund Performance Report](https://github.com/Suyashthakuri/asx-fund-performance-q3-2024)* — Investment analytics
-- *[ASX General Insurer KPI Dashboard](https://github.com/Suyashthakuri/asx-insurer-kpi-dashboard-)* — Power BI, DAX
+- *[NYSE Fund Performance Report](https://github.com/Suyashthakuri/NYSE-fund-performance-q3-2024)* — Investment analytics
+- *[NYSE General Insurer KPI Dashboard](https://github.com/Suyashthakuri/NYSE-insurer-kpi-dashboard-)* — Power BI, DAX

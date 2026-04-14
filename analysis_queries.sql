@@ -1,7 +1,7 @@
 -- ============================================================
 -- FP&A Budget vs Actual Variance Analysis — FY2024
 -- Financial Services Business Unit
--- Author: Suyash Thakuri — Financial Data Analyst
+-- Author: Samip Thakuri — Financial Data Analyst
 -- ============================================================
 -- TABLES:
 --   budget_vs_actual  (month, month_num, year, period, type,

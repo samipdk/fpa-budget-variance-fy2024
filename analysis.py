@@ -1,7 +1,7 @@
 """
 FP&A Budget vs Actual Variance Analysis — FY2024
 Financial Services Business Unit
-Author: Suyash Thakuri — Financial Data Analyst
+Author: Samip Thakuri — Financial Data Analyst
 """
 import pandas as pd
 import numpy as np
@@ -35,9 +35,9 @@ print("=" * 60)
 print("FP&A VARIANCE ANALYSIS — FY2024")
 print("Financial Services Business Unit")
 print("=" * 60)
-print(f"\nRevenue:  Budget A${m['fy_rev_budget']:,.0f}k | Actual A${m['fy_rev_actual']:,.0f}k | Var {m['fy_rev_var_pct']:+.1f}%")
-print(f"Costs:    Budget A${m['fy_cst_budget']:,.0f}k | Actual A${m['fy_cst_actual']:,.0f}k | Var +{m['fy_cst_variance']/m['fy_cst_budget']*100:.1f}%")
-print(f"EBITDA:   Budget A${m['fy_ebitda_budget']:,.0f}k | Actual A${m['fy_ebitda_actual']:,.0f}k | Var A${m['fy_ebitda_variance']:+,.0f}k")
+print(f"\nRevenue:  Budget ${m['fy_rev_budget']:,.0f}k | Actual ${m['fy_rev_actual']:,.0f}k | Var {m['fy_rev_var_pct']:+.1f}%")
+print(f"Costs:    Budget ${m['fy_cst_budget']:,.0f}k | Actual ${m['fy_cst_actual']:,.0f}k | Var +{m['fy_cst_variance']/m['fy_cst_budget']*100:.1f}%")
+print(f"EBITDA:   Budget ${m['fy_ebitda_budget']:,.0f}k | Actual ${m['fy_ebitda_actual']:,.0f}k | Var ${m['fy_ebitda_variance']:+,.0f}k")
 print(f"Margin:   Budget {m['fy_ebitda_margin_bud']}% | Actual {m['fy_ebitda_margin_act']}% | -0.9pp squeeze")
 
 # ── CHART 1: REVENUE — Budget vs Actual + Waterfall ──────
@@ -53,7 +53,7 @@ ax.bar(x + w/2, monthly["revenue_actual"], w,
               for v, b in zip(monthly["revenue_actual"], monthly["revenue_budget"])],
        alpha=0.85, label="Actual", edgecolor="none")
 ax.set_xticks(x); ax.set_xticklabels(MONTHS_SHORT)
-ax.set_ylabel("Revenue (A$000s)")
+ax.set_ylabel("Revenue ($000s)")
 ax.set_title("Monthly revenue — budget vs actual")
 ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v,_: f"${v:,.0f}k"))
 ax.legend()
@@ -66,13 +66,13 @@ colors_p = [ACCENT if v >= 0 else RED for v in rev_by_prod["variance"]]
 bars = ax.barh(rev_by_prod.index, rev_by_prod["variance"],
                color=colors_p, edgecolor="none", height=0.55)
 ax.axvline(0, color=NEUTRAL, linewidth=0.8)
-ax.set_xlabel("Variance vs budget (A$000s)")
+ax.set_xlabel("Variance vs budget ($000s)")
 ax.set_title("Revenue variance by product line")
 for bar, val in zip(bars, rev_by_prod["variance"]):
     x_ = val + 20 if val >= 0 else val - 20
     ha = "left" if val >= 0 else "right"
     ax.text(x_, bar.get_y() + bar.get_height()/2,
-            f"A${val:+,.0f}k", va="center", fontsize=8,
+            f"${val:+,.0f}k", va="center", fontsize=8,
             color=ACCENT if val >= 0 else RED)
 
 plt.tight_layout()
@@ -92,12 +92,12 @@ colors_c = [RED if v > 0 else ACCENT for v in cost_by_cat["variance"]]
 bars = ax.barh(cost_by_cat.index, cost_by_cat["variance"],
                color=colors_c, edgecolor="none", height=0.55)
 ax.axvline(0, color=NEUTRAL, linewidth=0.8)
-ax.set_xlabel("Overspend vs budget (A$000s)")
+ax.set_xlabel("Overspend vs budget ($000s)")
 ax.set_title("Cost variance by category")
 for bar, val in zip(bars, cost_by_cat["variance"]):
     x_ = val + 10 if val >= 0 else val - 10
     ax.text(x_, bar.get_y() + bar.get_height()/2,
-            f"A${val:+,.0f}k", va="center", fontsize=8,
+            f"${val:+,.0f}k", va="center", fontsize=8,
             color=RED if val > 0 else ACCENT)
 
 ax = axes[1]
@@ -106,7 +106,7 @@ ax.bar(np.arange(12) + 0.2, monthly["cost_actual"], 0.38,
        color=[RED if a > b else ACCENT for a,b in zip(monthly["cost_actual"],monthly["cost_budget"])],
        alpha=0.85, label="Actual", edgecolor="none")
 ax.set_xticks(np.arange(12)); ax.set_xticklabels(MONTHS_SHORT)
-ax.set_ylabel("Costs (A$000s)")
+ax.set_ylabel("Costs ($000s)")
 ax.set_title("Monthly costs — budget vs actual")
 ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v,_: f"${v:,.0f}k"))
 ax.legend()
@@ -128,7 +128,7 @@ ax.bar(np.arange(12) + 0.2, monthly["ebitda_actual"], 0.38,
               for a,b in zip(monthly["ebitda_actual"],monthly["ebitda_budget"])],
        alpha=0.85, label="Actual", edgecolor="none")
 ax.set_xticks(np.arange(12)); ax.set_xticklabels(MONTHS_SHORT)
-ax.set_ylabel("EBITDA (A$000s)")
+ax.set_ylabel("EBITDA ($000s)")
 ax.set_title("Monthly EBITDA — budget vs actual")
 ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v,_: f"${v:,.0f}k"))
 ax.legend()
@@ -174,14 +174,14 @@ ax.plot(np.arange(12), monthly["revenue_actual"],
         markersize=4, label="Actual trend", zorder=4)
 ax.axhline(monthly["revenue_budget"].mean(), color=NEUTRAL, linewidth=1,
            linestyle="--", alpha=0.5,
-           label=f"Avg monthly budget: A${monthly['revenue_budget'].mean():,.0f}k")
+           label=f"Avg monthly budget: ${monthly['revenue_budget'].mean():,.0f}k")
 ax.set_xticks(np.arange(12))
 ax.set_xticklabels(MONTHS_SHORT)
-ax.set_ylabel("Revenue (A$000s)")
+ax.set_ylabel("Revenue ($000s)")
 ax.set_title("Monthly revenue with FY trend")
 ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v,_: f"${v:,.0f}k"))
 ax.legend(loc="upper left")
-ax.annotate(f"FY Actual: A${m['fy_rev_actual']:,.0f}k\nvs Budget: A${m['fy_rev_budget']:,.0f}k\nVar: +{m['fy_rev_var_pct']}%",
+ax.annotate(f"FY Actual: ${m['fy_rev_actual']:,.0f}k\nvs Budget: ${m['fy_rev_budget']:,.0f}k\nVar: +{m['fy_rev_var_pct']}%",
             xy=(10, monthly['revenue_actual'].iloc[10]),
             xytext=(-100, 30), textcoords="offset points",
             fontsize=8, color=ACCENT, fontweight="bold",
