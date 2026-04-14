@@ -1,5 +1,5 @@
 # FP&A Budget vs Actual Variance Report — FY2024
-**Author: Samip Thakuri** | Financial Analyst | Wichita, KS | [LinkedIn](https://linkedin.com/in/samipthakuri) · [Portfolio](https://samipdk.github.io)
+**Author: Samip Thakuri** | Financial Analyst | Wichita, KS | [LinkedIn](https://linkedin.com/in/samipthakuri) · [Portfolio](https://samipdk.github.io/fin_portfolio/)
 
 ### CFO Management Pack for a US Financial Services Business Unit — SQL · Python · Power BI
 
